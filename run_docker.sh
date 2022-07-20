@@ -12,5 +12,5 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -it flaskapp bash
+#docker run -it flaskapp bash
 docker run -p 8000:80 api
