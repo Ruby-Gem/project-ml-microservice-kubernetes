@@ -11,7 +11,9 @@ The list of software dependencies are:
 * Kubernetes(minikube)
 
 # Build Instructions
-## 1. Clone Repo<br></br> ## 2. Create Enviroment<br></br> ## 3. Install Dependencies
+## 1. Clone Repo<br></br>
+## 2. Create Enviroment<br></br>
+## 3. Install Dependencies
 ### Docker
 For linux users, choose and follow the steps in this <a href="https://runnable.com/docker/install-docker-on-linux">link</a> according to your linux distribution.
 Using yum package manager.
@@ -68,7 +70,7 @@ make lint
 </span>
 
 # Glossary
-**.circleci**: Contains configuration file for CI/CD.
-**make_prediction.sh**: Sends post request aiming to trigger an inference on the flask app api
-**run_docker.sh**: Builds a docker container for the flask app
-**run_kubernetes.sh**: Builds a microservice on kubernetes cluster
+**.circleci**: Contains configuration file for CI/CD.<br>
+**make_prediction.sh**: Sends post request aiming to trigger an inference on the flask app api<br>
+**run_docker.sh**: Builds a docker container for the flask app<br>
+**run_kubernetes.sh**: Builds a microservice on kubernetes cluster<br>
