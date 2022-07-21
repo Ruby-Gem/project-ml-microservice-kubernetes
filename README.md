@@ -11,7 +11,7 @@ The list of software dependencies are:
 * Kubernetes(minikube)
 
 # Build Instructions
-## 1. Clone Repo<br></br>## 2. Create Enviroment<br></br>## 3. Install Dependencies
+## 1. Clone Repo<br></br> ## 2. Create Enviroment<br></br> ## 3. Install Dependencies
 ### Docker
 For linux users, choose and follow the steps in this <a href="https://runnable.com/docker/install-docker-on-linux">link</a> according to your linux distribution.
 Using yum package manager.
@@ -54,20 +54,22 @@ make lint
 ## 6. Run Docker
 <pre>
 ./run_docker.sh
-</pre>\<span align="left">
+</pre>
+<span align="left">
   <img width="600" heigt="300" src="https://github.com/Nnamaka/project-ml-microservice-kubernetes/blob/main/src/rundocker.gif">
 </span>
 
 ## 7. Make a Prediction
 <pre>
 ./make_prediction.sh
-</pre>\<span align="left">
+</pre>
+<span align="left">
   <img width="600" heigt="300" src="https://github.com/Nnamaka/project-ml-microservice-kubernetes/blob/main/src/makeprediction.gif">
 </span>
 
 # Glossary
 ### .circleci
-Contains configuration file for CI/CD.
+<b>Contains configuration file for CI/CD.</b>
 ### make_prediction.sh
 Sends post request aiming to trigger an inference on the flask app api
 ### run_docker.sh
