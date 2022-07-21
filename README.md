@@ -68,11 +68,7 @@ make lint
 </span>
 
 # Glossary
-### .circleci
-<b>Contains configuration file for CI/CD.</b>
-### make_prediction.sh
-Sends post request aiming to trigger an inference on the flask app api
-### run_docker.sh
-Builds a docker container for the flask app
-### run_kubernetes.sh
-Builds a microservice on kubernetes cluster
+**.circleci**: Contains configuration file for CI/CD.
+**make_prediction.sh**: Sends post request aiming to trigger an inference on the flask app api
+**run_docker.sh**: Builds a docker container for the flask app
+**run_kubernetes.sh**: Builds a microservice on kubernetes cluster
