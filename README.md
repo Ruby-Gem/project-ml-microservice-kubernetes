@@ -11,8 +11,8 @@ The list of software dependencies are:
 * Kubernetes(minikube)
 
 # Build Instructions
-## 1. Clone Repo<br></br>
-## 2. Create Enviroment<br></br>
+## 1. Clone Repo<br>
+## 2. Create Enviroment<br>
 ## 3. Install Dependencies
 ### Docker
 For linux users, choose and follow the steps in this <a href="https://runnable.com/docker/install-docker-on-linux">link</a> according to your linux distribution.
