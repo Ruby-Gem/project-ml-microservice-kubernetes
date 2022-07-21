@@ -27,7 +27,7 @@ jobs:
       - run:
           name: run lint
           command: |
-            source ~/.devops/bin/activate
+            source ~/.sedevops/bin/activate
             make lint 
 
 workflows:
