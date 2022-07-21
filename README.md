@@ -11,35 +11,34 @@ The list of software dependencies are:
 * Kubernetes(minikube)
 
 # Build Instructions
-## 1. Clone Repo<br>
-## 2. Create Enviroment<br>
+## 1. Clone Repo
+<pre>
+git clone https://github.com/Nnamaka/project-ml-microservice-kubernetes.git
+</pre>
+## 2. Create Enviroment
+<pre>
+python3 -m venv ~/.devops
+source ~/.devops/bin/activate
+</pre>
 ## 3. Install Dependencies
 ### Docker
 For linux users, choose and follow the steps in this <a href="https://runnable.com/docker/install-docker-on-linux">link</a> according to your linux distribution.
 Using yum package manager.
 <pre>
 sudo yum update -y
-</pre>
-<pre>
 sudo yum install docker-engine -y
 </pre>
 
 ### Hadolint
 <pre>
 wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-Linux-x86_64
-</pre>
-<pre>
 chmod +x /bin/hadolint
 </pre>
 
 ### Kubernetes(minikube)
 <pre>
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-</pre>
-<pre>
 chmod +x minikube
-</pre>
-<pre>
 mv minikube /usr/local/bin/
 </pre>
 
@@ -70,7 +69,7 @@ make lint
 </span>
 
 # Glossary
-**.circleci**: Contains configuration file for CI/CD.<br>
-**make_prediction.sh**: Sends post request aiming to trigger an inference on the flask app api<br>
-**run_docker.sh**: Builds a docker container for the flask app<br>
-**run_kubernetes.sh**: Builds a microservice on kubernetes cluster<br>
+<h3>**.circleci**</h3>: Contains configuration file for CI/CD.<br>
+<h3>**make_prediction.sh**</h3>: Sends post request aiming to trigger an inference on the flask app api<br>
+<h3>**run_docker.sh**</h3>: Builds a docker container for the flask app<br>
+<h3>**run_kubernetes.sh**</h3>: Builds a microservice on kubernetes cluster<br>
