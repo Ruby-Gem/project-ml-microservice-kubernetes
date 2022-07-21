@@ -29,17 +29,11 @@ sudo yum update -y
 sudo yum install docker-engine -y
 </pre>
 
-### Hadolint
-<pre>
-wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/download/v2.10.0/hadolint-Linux-x86_64
-chmod +x /bin/hadolint
-</pre>
-
 ### Kubernetes(minikube)
 <pre>
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
-chmod +x minikube
-mv minikube /usr/local/bin/
+sudo chmod +x minikube
+sudo mv minikube /usr/local/bin/
 </pre>
 
 ## 4. Install Packages
