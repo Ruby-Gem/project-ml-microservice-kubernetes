@@ -11,9 +11,7 @@ The list of software dependencies are:
 * Kubernetes(minikube)
 
 # Build Instructions
-## 1. Clone Repo
-## 2. Create Enviroment
-## 3. Install Dependencies
+## 1. Clone Repo\## 2. Create Enviroment\## 3. Install Dependencies
 ### Docker
 For linux users, choose and follow the steps in this <a href="https://runnable.com/docker/install-docker-on-linux">link</a> according to your linux distribution.
 Using yum package manager.
@@ -56,12 +54,16 @@ make lint
 ## 6. Run Docker
 <pre>
 ./run_docker.sh
-</pre>
+</pre>\<span align="left">
+  <img width="600" heigt="300" src="https://github.com/Nnamaka/project-ml-microservice-kubernetes/blob/main/src/rundocker.gif">
+</span>
 
 ## 7. Make a Prediction
 <pre>
 ./make_prediction.sh
-</pre>
+</pre>\<span align="left">
+  <img width="600" heigt="300" src="https://github.com/Nnamaka/project-ml-microservice-kubernetes/blob/main/src/makeprediction.gif">
+</span>
 
 # Glossary
 ### .circleci
